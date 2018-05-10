@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/equipment/index",
+    "pages/dashboard/index",
+    "pages/my/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "京东零售物联管家",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath":"pages/home/index",
+        "iconPath":"pages/images/home.png",
+        "selectedIconPath":"pages/images/selecthome.png",
+        "text": "首页"
+      },{
+        "pagePath":"pages/equipment/index",
+        "iconPath":"pages/images/equipment.png",
+        "selectedIconPath":"pages/images/selectequipment.png",
+        "text": "设备"
+      },{
+        "pagePath":"pages/dashboard/index",
+        "iconPath": "pages/images/data.png",
+        "selectedIconPath": "pages/images/selectdata.png",
+        "text":"数据看板"
+      },{
+        "pagePath": "pages/my/index",
+          "iconPath": "pages/images/my.png",
+          "selectedIconPath": "pages/images/selectmy.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

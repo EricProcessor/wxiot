@@ -1,0 +1,87 @@
+<view class="container">
+  <view class="page_head"></view>
+  <view class="page_body">
+    <!--下拉-->
+        <view class="body_select">
+              <view class="page-section">
+                  <view class="weui-cells weui-cells_after-title">
+                      <view class="weui-cell weui-cell_input">
+                          <view class="weui-cell__bd">
+                            <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                              <view class="weui-input">{{array[index]}}</view>
+                            </picker>
+                          </view>
+                      </view>
+                  </view>
+              </view>
+          </view>
+    <!--流量统计-->
+
+        <view class="body_statistics">
+                    <view class="weui-flex body_statistics_background ">
+                            <view class="weui-flex__item ">
+                                <view class="placeholder">
+                                  <view>店前流量</view>
+                                  <view>1000</view>
+                                </view>
+                            </view>
+                            <view class="weui-flex__item placeholder_right_left">
+                                <view class="placeholder ">
+                                  <view>进店流量</view>
+                                  <view>1000</view>
+                                </view>
+                            </view>
+                            <view class="weui-flex__item">
+                                <view class="placeholder">
+                                  <view>进店率</view>
+                                  <view>1000</view>
+                                </view>
+                            </view>
+                    </view>
+                    <view class="weui-flex body_statistics_top">
+                        <view class="weui-flex__item"> 昨日:23,499</view>
+                        <view class="weui-flex__item"> 昨日:23,499</view>
+                        <view class="weui-flex__item"> 昨日:23,499</view>
+                    </view>
+          </view>
+          <view class="body_add">
+                    <view class="weui-flex">
+                            <view class="weui-flex__item body_right">
+                                   <button type="warn" class="body_btn">添加门店</button>
+                            </view>
+                            <view class="weui-flex__item body_left">
+                                   <button type="warn" class="body_btn" bindtap="addEquipment">添加设备</button>
+                            </view>
+                    </view>
+          </view>
+
+         <view class="body_data">
+                    <view class="weui-flex">
+                            <view class="weui-flex__item">
+                                <view class="placeholder body_data_right">
+                                  <view>广告助手</view>
+                                </view>
+                            </view>
+                            <view class="weui-flex__item">
+                                <view class="placeholder body_data_right">
+                                  <view>门店助手</view>
+                                </view>
+                            </view>
+                            <view class="weui-flex__item">
+                                <view class="placeholder body_data_right">
+                                  <view>数据分析</view>
+                                </view>
+                            </view>
+                            <view class="weui-flex__item">
+                                <view class="placeholder body_data_right">
+                                  <view>敬请期待</view>
+                                </view>
+                            </view>
+
+                    </view>
+          </view>
+
+
+
+  </view>
+</view>

@@ -1,0 +1,66 @@
+/* pages/home/index.wxss */
+page {
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+
+.container{
+    flex-direction:column;
+    min-height:100%;
+    justify-content:space-between;
+    font-size:32rpx;
+    font-family:-apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    padding: 0 20px;
+}
+.page_body{
+  height: 100%;
+}
+
+.body_select{
+      overflow: hidden;
+      font-size: 32rpx;
+      line-height: 1.6;
+}
+.body_statistics{
+  padding:30rpx;
+  background-color:  #F8F8F8;
+}
+.body_add{
+margin-top: 30px;
+}
+.body_right{
+  margin-right:25rpx;
+}
+.body_left{
+  margin-left: 25rpx;
+}
+.body_btn{
+  height: 110rpx;
+  line-height: 110rpx;
+}
+.body_statistics_top{
+  margin-top: 50rpx;
+}
+.body_statistics_background{
+  background-color: #FFFFFF;
+  height: 220rpx;
+  padding: 20rpx;
+}
+.placeholder {
+  background-color: #FFFFFF;
+  text-align: center;
+  height: 200rpx;
+  line-height: 100rpx;
+}
+.placeholder_right_left{
+    border-right: 1rpx solid #DBDBDB;
+    border-left: 1rpx solid #DBDBDB;
+}
+.body_data{
+  margin-top: 80rpx;
+}
+.body_data .body_data_right{
+  border-right: 0rpx;
+  border-left: 0rpx;
+}

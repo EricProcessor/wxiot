@@ -1,0 +1,26 @@
+<!--pages/shopAssistant/realTimePerformance/guestGroup/guestGroup.wxml-->
+<view class="navbar">  
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+</view>  
+  
+<!--客群-->  
+<view class='shopContent' hidden="{{currentTab!==0}}">  
+   <view class="dateOpt">
+        <text wx:for="{{dateOpt}}" data-idx="{{index}}" class="item {{currentDate==index ? 'dateAct' : ''}}" bindtap='dateTab' wx:key="unique">{{item}}</text>
+   </view>
+</view>  
+  
+<!--关注度-->  
+<view hidden="{{currentTab!==1}}">  
+  tab_02  
+</view>  
+  
+<!--业绩-->  
+<view hidden="{{currentTab!==2}}">  
+  tab_03  
+</view> 
+
+<!--排名-->  
+<view hidden="{{currentTab!==3}}">  
+  tab_04  
+</view> 

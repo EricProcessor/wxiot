@@ -1,0 +1,55 @@
+<!--主页面-数据看板-->
+<view class='content'>
+  <view class='title'>京东零售数据看板</view>
+  <view class='time'>数据采集时间：当日00：00~{{time}}</view>
+  <view class='blank'></view>
+  <view class='card_wrap'>
+     <view class='card' bindtap='enterFlowStatis'>
+      <text class='card_title'>店前累计客流</text>
+      <text class='card_num'></text>
+    </view>
+    <view class='card' bindtap='enterFlowStatis'>
+      <text class='card_title'>进店累计客流</text>
+      <text class='card_num'>1,003</text>
+    </view>
+    <view class='card' bindtap='enterCustomerStatis'>
+      <text class='card_title'>性别比例</text>
+      <text class='card_num'>60：40</text>
+    </view>
+    <view class='card' bindtap='enterCustomerStatis'>
+      <text class='card_title'>核心年龄群</text>
+      <text class='card_num'>22~32岁</text>
+    </view>
+    <view class='card' bindtap='enterFlowStatis'>
+      <text class='card_title'>进店率</text>
+      <text class='card_num'></text>
+    </view>
+    <view class='card' bindtap='enterFlowStatis'>
+      <text class='card_title'>平均停留时长</text>
+      <text class='card_num'></text>
+    </view>
+    <view class='card' bindtap='enterCustomerStatis'>
+      <text class='card_title' >累计会员数</text>
+      <text class='card_num'>3,010</text>
+    </view>
+    <view class='card' bindtap='enterCustomerStatis'>
+      <text class='card_title'>进店新顾客</text>
+      <text class='card_num'>25</text>
+    </view>
+    <view class='card' bindtap='enterCustomerStatis'>
+      <text class='card_title'>进店老顾客</text>
+      <text class='card_num'>3,010</text>
+    </view>
+    <view class='card' bindtap='enterProductStatis'>
+      <text class='card_title'>商品关注次数</text>
+      <text class='card_num'></text>
+    </view>
+    <view class='card' bindtap='enterSexRatio'>
+      <text class='card_title'>实时热区榜</text>
+      <text class='card_num'>位置1</text>
+    </view>
+    <view class='add' bindtap='setting'>
+      <image class='add_img' src='/img/add.png'></image>
+    </view>
+  </view>
+</view>

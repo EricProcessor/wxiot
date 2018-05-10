@@ -1,0 +1,62 @@
+/* pages/data/CustomerStatis/CustomerStatis.wxss */
+@import '../../../app.wxss';
+.title{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #666666;
+  font-size: 29rpx;
+  margin-top: 39rpx
+}
+.DataTable{
+  margin-top: 44rpx;
+  width: 90%;
+  height: 170rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8rpx;
+  justify-content: space-around;
+	border: solid 2rpx #f0f0f0;
+  position: relative;
+}
+.DataTitle{
+  font-family: FZLTHK--GBK1-0;
+	font-size: 30rpx;
+  color: #131313;
+  margin-right: 24rpx;
+  margin-bottom: 10rpx;
+}
+.DataShow{
+  font-family: FZLTHK--GBK1-0;
+	font-size: 36rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 10px;
+	letter-spacing: 0px;
+	color: #ff5a5a;
+  
+}
+.member{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.line{
+  width: 2rpx;
+  height: 90rpx;
+  background-color: #e2e2e4;
+  position: absolute;
+  left: 50%;
+}
+.customer{
+  display: flex;
+  flex-direction: column;
+}
+.customer .DataTitle {
+  margin-bottom: 33rpx;
+}
+.up{
+  margin-top: 25rpx;
+}

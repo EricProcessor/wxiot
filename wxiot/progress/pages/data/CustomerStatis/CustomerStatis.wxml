@@ -1,0 +1,47 @@
+<view class="content"> 
+  <!--文字标题-->
+  <view class='title'>
+    <text>数据采集时间：</text>
+  </view>
+<!--时间选择器-->
+  <view class='timeselection'>
+    <view class='pre_next' bindtap='prevMonth'>
+      <image src='../../../img/left.png'></image>
+    </view>
+    <view class='timeshower'>
+      <text>{{month}}月1日00：00~{{month}}月{{day}}日</text>
+    </view>
+    <view class='pre_next' bindtap='nextMonth'>
+      <image src='../../../img/more.png'></image>
+    </view>
+  </view>
+<!--数据展示-->
+  <view class='DataTable'>
+    <view>
+      <view>
+        <text class='DataTitle'>进店男性</text>
+        <text class='DataShow'>676</text>
+      </view>
+      <view>
+        <text class='DataTitle'>进店女性</text>
+        <text class='DataShow'>1,200</text>
+      </view>
+    </view>
+    <view class='line'></view>
+    <view class='member'>
+      <view><text class='DataTitle'>会员到访</text></view>
+      <view><text class='DataShow'>1,003</text></view>
+    </view>
+  </view>
+  <view class='DataTable up'>
+    <view class='customer'>
+      <text class='DataTitle'>新到访客</text>
+      <text class='DataShow'>200</text>
+    </view>
+     <view class='line'></view>
+    <view class='customer'>
+      <text class='DataTitle '>老客到访</text>
+      <text class='DataShow'>344</text>
+    </view>
+  </view>
+</view>

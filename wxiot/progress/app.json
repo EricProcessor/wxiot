@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/device/device",
+    "pages/data/data",
+    "pages/mine/mine",
+    "pages/addStore/addStore",
+    "pages/addDevice/addDevice",
+    "pages/device/device_detail/device_detail",
+    "pages/data/setting/setting",
+    "pages/data/FlowStatis/FlowStatis",
+    "pages/data/SexRatio/SexRatio",
+    "pages/data/ProductStatis/ProductStatis",
+    "pages/data/CustomerStatis/CustomerStatis",
+    "pages/shopAssistant/realTimePerformance/guestGroup/guestGroup"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#ff5a5a",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "img/home.png",
+        "selectedIconPath": "img/home_act.png"
+      },
+      {
+        "pagePath": "pages/device/device",
+        "text": "设备",
+        "iconPath": "img/device.png",
+        "selectedIconPath": "img/device_act.png"
+      },
+      {
+        "pagePath": "pages/data/data",
+        "text": "数据看板",
+        "iconPath": "img/data.png",
+        "selectedIconPath": "img/data_act.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "img/mine.png",
+        "selectedIconPath": "img/mine_act.png"
+      }
+    ]
+  }
+}

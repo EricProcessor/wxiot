@@ -1,0 +1,76 @@
+/* pages/shopAssistant/realTimePerformance/guestGroup/guestGroup.wxss */
+page{  
+  display: flex;  
+  flex-direction: column;  
+  height: 100%;  
+}  
+.navbar{  
+  flex: none;  
+  display: flex;  
+  background: #fff;  
+  padding: 0 20rpx;
+}  
+.navbar .item{  
+  position: relative;  
+  flex: auto;  
+  text-align: center;  
+  line-height: 80rpx;
+  border: 1px solid #5a79ff; 
+  color: #5a79ff; 
+}
+.navbar .item:first-child{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; 
+} 
+.navbar .item:last-child{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+} 
+.navbar .item.active{  
+  color: #FFF;  
+  background-color: #5a79ff;
+}  
+/* .navbar .item.active:after{  
+  content: "";  
+  display: block;  
+  position: absolute;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  height: 4rpx;  
+  background: #FFCC00;  
+} */
+.shopContent{
+  padding: 0 20rpx;
+  margin-top: 60rpx;
+}
+.dateOpt{
+  /* border: 1px solid #5a79ff; */
+  box-shadow:2px 1px 5px 5px rgba(0, 0, 0, .1);
+  flex: none;  
+  display: flex;  
+  background: #fff;
+  border-radius: 4px;  
+}
+.dateOpt .item{  
+  position: relative;  
+  flex: auto;  
+  text-align: center;  
+  line-height: 80rpx;
+  color: #b2c1ff; 
+}
+.dateOpt .item.dateAct{
+  color: #5a79ff;
+}
+.dateOpt .item.dateAct:after{
+  content: "";  
+  display: block;  
+  position: absolute;  
+  bottom: 0;  
+  left: 40%;  
+  /* right: center;   */
+  /* margin-left: -25%; */
+  height: 4rpx;  
+  width: 20%;
+  background: #5a79ff; 
+}

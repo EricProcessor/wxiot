@@ -1,0 +1,7 @@
+<view class='content'>
+  <view class='info'>
+    <image class='photo' src='/img/photo.png'></image>
+    <text class='info_text'>185*****P</text>
+  </view>
+  <view class='exit'>退出登录</view>
+</view>

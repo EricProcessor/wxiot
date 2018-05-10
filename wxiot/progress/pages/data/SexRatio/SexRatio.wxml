@@ -1,0 +1,27 @@
+<view class="content"> 
+  <!--文字标题-->
+  <view class='title'>
+    <text>数据采集时间：</text>
+  </view>
+<!--时间选择器-->
+  <view class='timeselection'>
+    <view class='pre_next' bindtap='prevMonth'>
+      <image src='../../../img/left.png'></image>
+    </view>
+    <view class='timeshower'>
+      <text>{{month}}月1日00：00~{{month}}月{{day}}日</text>
+    </view>
+    <view class='pre_next' bindtap='nextMonth'>
+      <image src='../../../img/more.png'></image>
+    </view>
+  </view>
+  <!--排序选择器-->
+  <view class='typepicker'>
+      <picker bindchange='bindPickerChange' value="{{index}}" range="{{array}}">
+        <view class='picker'>
+          {{array[index]}}
+        </view>
+      </picker>
+      <image src='../../../img/down.png'></image>
+  </view>
+</view>

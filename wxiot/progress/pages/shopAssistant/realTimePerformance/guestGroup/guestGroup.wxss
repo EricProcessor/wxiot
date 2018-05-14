@@ -29,7 +29,35 @@ page{
 .navbar .item.active{  
   color: #FFF;  
   background-color: #5a79ff;
+}
+.bottomnav{
+  flex: none;  
+  display: flex;  
+  background: #fff; 
+  box-shadow: 0px -4px 3px rgba(0, 0, 0, .1);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.bottomnav .item{
+  height: 98rpx;
+  flex: 1;
+  text-align: center;
+  padding-top: 10rpx;
 }  
+.bottomnav .item image{
+  width: 56rpx;
+  height: 46rpx;
+  display: block;
+  margin: 0 auto;
+}
+.bottomnav .item text{
+  font-size: 24rpx;
+  color: #b1b1b1;
+}
+.bottomnav .item text.active{
+  color: #5a79ff;
+}
 /* .navbar .item.active:after{  
   content: "";  
   display: block;  
@@ -73,4 +101,92 @@ page{
   height: 4rpx;  
   width: 20%;
   background: #5a79ff; 
+}
+.guestDetail{
+  display: flex;
+  margin: 40rpx 0;
+}
+.detail{
+  flex: 1;
+  border: 1px solid #b1b1b1;
+  border-radius: 4px;
+  padding: 0 5px;
+}
+.guestDetail .detail:first-child{
+  margin-right:20rpx;
+}
+.male,.famale{
+  font-size: 20px;
+  color: #131313;
+  width: 35%;
+}
+.detail .member{
+   font-size: 20px;
+   color: #131313; 
+   display: inline-block;
+}
+.detail .gender:nth-child(1){
+  margin-bottom: 6px;
+}
+.guestDetail .num{
+  font-size: 18px;
+  color: #ff5a5a;
+  width: 30%;
+}
+.detail text{
+  display: inline-block;
+}
+.detail .title{
+  margin-bottom: 7px;
+}
+/*年龄分布  */
+.agedistribution{
+  display: flex;
+  position: relative;
+}
+.agecontent{
+  border: 1px solid #b1b1b1;
+  border-radius: 4px;
+  padding: 4px;
+}
+ /* .wenzi,.icon-group{
+  display: inline-block;
+}  */
+.icon-group{
+  position: absolute;
+  right: 10px;
+  bottom: 3px;
+}
+.icon-group text{
+  font-size: 35rpx;
+}
+.icon-male,.icon-famale{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin:0 10px;
+  border-radius: 8px;
+}
+.icon-male{
+  background-color: #ff5a5a;
+}
+.icon-famale{
+  background-color: #5a79ff;
+}
+/*堆叠统计图  */
+.progresscount,.profamale,.promale{
+  height: 20px;
+}
+.progresscount{
+  width: 100%;
+  background-color: #f4f4f4;
+  display: flex;
+}
+.promale{
+  width: 40%;
+  background-color: #7b94ff;
+}
+.profamale{
+  width: 43%;
+  background-color: #ff7b7b;
 }

@@ -8,6 +8,66 @@
    <view class="dateOpt">
         <text wx:for="{{dateOpt}}" data-idx="{{index}}" class="item {{currentDate==index ? 'dateAct' : ''}}" bindtap='dateTab' wx:key="unique">{{item}}</text>
    </view>
+   <view class='guestDetail'>
+      <view class='detail'>
+        <view class='gender'>
+          <text class='male'>男性</text>
+          <text class='num'>676</text>
+          <text>22%</text>  
+        </view>
+        <view class='gender'>
+          <text class='famale'>女性</text>
+          <text class='num'>1428</text>
+          <text>2%</text>  
+        </view>
+      </view>
+      <view class='detail'>
+          <view class='title'>
+            <text class='member'>会员到访</text>
+          </view>
+          <view>
+            <text class='num'>1428</text>
+            <text>2%</text>
+          </view>
+      </view>
+   </view>
+   <view class='guestDetail'>
+      <view class='detail'>
+          <view class='title'>
+            <text class='member'>新到访客</text>
+          </view>
+          <view>
+            <text class='num'>1428</text>
+            <text>2%</text>
+          </view>
+      </view>
+      <view class='detail'>
+          <view class='title'>
+            <text class='member'>回头客到访</text>
+          </view>
+          <view>
+            <text class='num'>148</text>
+            <text>2%</text>
+          </view>
+      </view>
+   </view>
+   <view class='agecontent'>
+      <view class='agedistribution'>
+          <view class='title'>
+            <text>年龄分布</text>
+            <view class='icon-group'>
+                <text class='icon-male'></text>
+                <text>男</text>
+                <text class='icon-famale'></text>
+                <text>女</text>
+            </view>
+          </view>
+      </view>
+      <view class='progresscount'>
+          <view class='promale'></view>
+          <view class='profamale'></view>
+      </view>  
+   </view>
 </view>  
   
 <!--关注度-->  
@@ -24,3 +84,18 @@
 <view hidden="{{currentTab!==3}}">  
   tab_04  
 </view> 
+<!-- 底部导航 -->
+<view class='bottomnav'>
+    <view class='item'>
+        <image src='/img/realtimesel.png'></image>
+        <text class='active'>实时业绩</text>
+    </view>
+    <view class='item'>
+        <image src='/img/member.png'></image>
+        <text>会员管理</text>
+    </view>
+    <view class='item'>
+        <image src='/img/myshop.png'></image>
+        <text>我的店铺</text>
+    </view>
+</view>
